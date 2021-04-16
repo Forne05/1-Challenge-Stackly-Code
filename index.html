@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>1# Challenge - Stackly Code</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./index.js"></script>
+</head>
+
+<body onload="obtenerCitas()">
+<!--Header-->
+  <header class="header">
+     <img src="./css/imagenes/logo.svg" alt="logo" class="logo">
+  </header>
+<!--Fin Header-->
+
+<!--Busqqueda-->
+  <div class="seccion-busqueda">
+    <div class="seccion-formulario">
+       <input type="text" name="busqueda" class="search" id="input-busqueda">
+       <button id="seccion-busqueda__boton" class="boton-busqueda" 
+       onclick="filtrar()">Search</button>
+    </div>
+    <div class="seccion-aleatoria">
+      <button id="seccion-aleatoria" class="boton-ramdom" onclick="aleatorio()">
+        Ramdom &nbsp; <img src="./css/imagenes/ramdom-icon.svg" alt="boton-ramdom">
+      </button>
+    </div>
+  </div>
+<!--Fin Busqueda-->
+
+<!--Citas-->
+<div class="seccion-citas">
+  
+  <div class="seccion-autor">
+      <p>Bill Gates</p>
+  </div>
+
+  <progress id="cargando">Cargando</progress>
+
+  <div class="contenedor-citas" id="contenedor-citas"></div>
+</div>
+<!--Citas-->
+
+</body>
+<footer>
+  <img src="./css/imagenes/logo.svg" alt="logo-footer" class="logo-footer">
+
+</footer>
+</html>
