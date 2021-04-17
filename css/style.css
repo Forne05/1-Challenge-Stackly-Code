@@ -33,7 +33,7 @@ body {
 }
         
 
-.search {
+.busqueda {
 	width: 417px;
 	height: 42px;
 	background: #FFFFFF;
@@ -41,6 +41,7 @@ body {
 	border-radius: 5px;
 	margin-right: 44px;
 	padding-left: 15px;
+	border: #f1f0f0 solid;
 	
 }   
 
@@ -96,6 +97,7 @@ body {
 	justify-items: center;
 	padding: 10px;
 	cursor: pointer;
+	border: #f9f6f6 solid;
 
 }
 
